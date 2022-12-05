@@ -1,12 +1,7 @@
 package Day02;
 
-import java.io.*;
-/**
- *  A, X - Rock
- *  B, Y - Paper
- *  C, Z - Scissor
- *
- */
+import utils.CommonUtils;
+
 public class DayTwo {
     private static final String ROCK = "Rock";
     private static final String PAPER = "Paper";
@@ -42,24 +37,6 @@ public class DayTwo {
             case PAPER: return 2;
             case SCISSOR: return 3;
             default: return 0;
-        }
-    }
-    public String readFile(String fileName) {
-        try {
-            String newFileName = "./src/Day02/" + fileName;
-            File inputFile = new File(newFileName);
-            FileReader fr = new FileReader(inputFile);
-            BufferedReader bufferedReader = new BufferedReader(fr);
-            StringBuffer stringBuffer = new StringBuffer();
-            String line;
-            while ((line = bufferedReader.readLine()) != null) {
-                stringBuffer.append(line);
-                stringBuffer.append("\n");
-            }
-            fr.close();
-            return stringBuffer.toString();
-        } catch (Exception e) {
-            throw new RuntimeException(e);
         }
     }
 
@@ -133,7 +110,8 @@ public class DayTwo {
     }
     public static void main(String[] args) {
         DayTwo p1 = new DayTwo();
-        String input = p1.readFile("input.txt");
+        CommonUtils utils = new CommonUtils();
+        String input = utils.readFile(2, "input.txt");
         String outputA = p1.solvePartOne(input);
         String outputB = p1.solvePartTwo(input);
         System.out.println("Part A: " + outputA);

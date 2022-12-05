@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23981208-0c0d-4033-b28d-8814130cd5fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent-of-code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day02/DayTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day02/Sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Day02/input.txt" afterDir="false" />
+    <list default="true" id="23981208-0c0d-4033-b28d-8814130cd5fc" name="Changes" comment="Solved Day 2 problems!">
+      <change afterPath="$PROJECT_DIR$/src/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Day02/DayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day02/DayTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.DayTwo">
     <configuration name="DayTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day02.DayTwo" />
@@ -88,6 +82,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670170194677</updated>
     </task>
+    <task id="LOCAL-00001" summary="Solved Day 2 problems!">
+      <created>1670173072635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670173072635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +102,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solved Day 2 problems!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved Day 2 problems!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
